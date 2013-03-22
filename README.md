@@ -1,6 +1,6 @@
 # Spectacle Puppet Module for Boxen
 
-Installs (Spectacle)[http://spectacleapp.com/], which is a free window position manager for OSX.
+Installs [Spectacle](http://spectacleapp.com/), which is a free window position manager for OSX.
 
 ## Usage
 
