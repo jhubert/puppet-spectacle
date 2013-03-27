@@ -9,7 +9,6 @@ class spectacle {
     provider => 'compressed_app'
   }
 
-
   exec { "enable assistive devices":
     command => "osascript -e 'tell application \"System Events\" to set UI elements enabled to true'",
     onlyif => "[ ! -f /private/var/db/.AccessibilityAPIEnabled ]",
